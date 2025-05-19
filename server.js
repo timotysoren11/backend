@@ -12,7 +12,7 @@ const PORT = process.env.PORT;
 // Middleware
 
 app.use(cors({
-  origin: 'https://code-editor-frontend-lemon.vercel.app',
+  origin: 'https://code-editor-frontend-clbbjrugi-timoty-sorens-projects.vercel.app',
   methods: ['GET', 'POST'],
 }));
 app.use(bodyParser.json());
