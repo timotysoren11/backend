@@ -10,8 +10,10 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Middleware
+
 app.use(cors({
-  origin: 'https://frontend-iota-one-97.vercel.app/', // Update with your actual frontend URL
+  origin: 'https://frontend-iota-one-97.vercel.app',
+  methods: ['GET', 'POST'],
 }));
 app.use(bodyParser.json());
 
